@@ -1,1 +1,0 @@
-# lynx-landing-page
