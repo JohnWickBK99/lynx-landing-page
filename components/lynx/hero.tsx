@@ -4,7 +4,7 @@ import { AuroraText } from "../magicui/aurora-text";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen -top-13 flex items-center justify-center px-4 py-20 overflow-hidden">
+    <section className="relative min-h-screen -top-15 flex items-center justify-center px-4 py-20 overflow-hidden">
       {/* Global Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-orange-900/50 to-amber-900/30">
         {/* World Map Silhouette */}
@@ -258,13 +258,18 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="flex justify-center lg:justify-end"
         >
-          <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
+          <div className="relative w-[300px] h-[300px] md:w-[450px] md:h-[450px]">
             {/* Central Global Hub */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center shadow-lg shadow-primary/30">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary/80 to-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-gradient-to-br from-white/50 to-primary/70 rounded-full flex items-center justify-center shadow-lg shadow-primary/30">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary/70 to-white/50 rounded-full flex items-center justify-center">
+                {/* <span className="text-primary-foreground font-bold text-lg">
                   🌍
-                </span>
+                </span> */}
+                <img
+                  src="/logo/lynx-or-sm.svg"
+                  alt="Lynx AI"
+                  className="w-auto h-8"
+                />
               </div>
             </div>
 
@@ -290,13 +295,16 @@ export default function Hero() {
 
               {/* Oceania Node */}
               <div className="absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-gradient-to-br from-amber-600/20 to-orange-500/20 rounded-full border border-amber-400/40 flex items-center justify-center backdrop-blur-sm">
-                <span className="text-xs font-bold text-amber-300">🌐</span>
+                <span className="text-xs font-bold text-amber-300">
+                  {/* 🌐 */}
+                  🌍
+                </span>
               </div>
             </div>
 
             {/* Global Connection Rings */}
             <div className="absolute inset-0">
-              <svg className="w-full h-full" viewBox="0 0 400 400">
+              <svg className="w-full h-full" viewBox="0 0 450 450">
                 <defs>
                   <linearGradient
                     id="globalGradient"
@@ -311,9 +319,9 @@ export default function Hero() {
                   </linearGradient>
                 </defs>
                 <circle
-                  cx="200"
-                  cy="200"
-                  r="150"
+                  cx="225"
+                  cy="225"
+                  r="175"
                   fill="none"
                   stroke="url(#globalGradient)"
                   strokeWidth="1"
@@ -321,9 +329,9 @@ export default function Hero() {
                   className="animate-pulse"
                 />
                 <circle
-                  cx="200"
-                  cy="200"
-                  r="100"
+                  cx="225"
+                  cy="225"
+                  r="125"
                   fill="none"
                   stroke="url(#globalGradient)"
                   strokeWidth="1"
@@ -332,9 +340,9 @@ export default function Hero() {
                   style={{ animationDelay: "1s" }}
                 />
                 <circle
-                  cx="200"
-                  cy="200"
-                  r="50"
+                  cx="225"
+                  cy="225"
+                  r="75"
                   fill="none"
                   stroke="url(#globalGradient)"
                   strokeWidth="1"

@@ -384,3 +384,10 @@ body {
   font-size: 0.625rem;
   line-height: 0.75rem;
 }
+
+.h-17 {
+  height: 4.25rem;
+}
+.w-17 {
+  width: 4.25rem;
+}

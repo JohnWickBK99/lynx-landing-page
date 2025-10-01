@@ -70,22 +70,23 @@ export default function Home() {
 
       {/* Desktop Header */}
       <header
-        className={`sticky top-4 z-[9999] mx-auto hidden w-full flex-row items-center justify-between self-start rounded-full bg-background/80 md:flex backdrop-blur-sm border border-border/50 shadow-lg transition-all duration-300 ${
+        className={`sticky top-4 z-[9999] mx-auto hidden w-full flex-row items-center justify-between self-start rounded-full bg-background/60 md:flex backdrop-blur-sm border border-border/50 shadow-lg transition-all duration-300 ${
           isScrolled ? "max-w-3xl px-2" : "max-w-5xl px-4"
-        } py-2`}
+        } py-3`}
       >
         <a
           className={`z-50 flex items-center justify-center gap-2 transition-all duration-300 ${
-            isScrolled ? "ml-4" : ""
+            isScrolled ? "ml-4" : "ml-2"
           }`}
           href="#"
         >
-          <div className="flex items-center gap-2">
+          <img src="/logo/lynx-or.svg" alt="Lynx AI" className="w-auto h-7" />
+          {/* <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">L</span>
             </div>
             <span className="font-bold text-foreground">Lynx AI</span>
-          </div>
+          </div> */}
         </a>
 
         <div className="absolute inset-0 hidden flex-1 flex-row items-center justify-center space-x-2 text-sm font-medium text-muted-foreground transition duration-200 hover:text-foreground md:flex md:space-x-2">
