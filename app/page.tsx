@@ -1,5 +1,6 @@
 "use client";
 import Contact from "@/components/lynx/contact";
+import { Footer } from "@/components/lynx/footer";
 import Hero from "@/components/lynx/hero";
 import Partners from "@/components/lynx/partners";
 import Services from "@/components/lynx/services";
@@ -288,6 +289,9 @@ export default function Home() {
       <div id="contact">
         <Contact />
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

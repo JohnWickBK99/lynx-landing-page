@@ -215,7 +215,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-medium">Phone</div>
-                    <div className="text-muted-foreground">(+84)929862699</div>
+                    <div className="text-muted-foreground">(+84) 929862699</div>
                   </div>
                 </div>
 
@@ -231,8 +231,8 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="p-6 rounded-lg border border-border/30 bg-card/20 backdrop-blur-sm">
-              {/* <h4 className="font-semibold mb-2">Why Choose Lynx AI?</h4>
+            {/* <div className="p-6 rounded-lg border border-border/30 bg-card/20 backdrop-blur-sm">
+              <h4 className="font-semibold mb-2">Why Choose Lynx AI?</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
@@ -250,8 +250,8 @@ export default function Contact() {
                   <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
                   <span>24/7 support and maintenance</span>
                 </li>
-              </ul> */}
-            </div>
+              </ul>
+            </div> */}
           </div>
         </div>
 
