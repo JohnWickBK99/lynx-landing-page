@@ -14,7 +14,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
-import GoogleMap from "./google-map";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -209,7 +208,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center">
                     <span className="text-primary">📱</span>
                   </div>
@@ -227,7 +226,7 @@ export default function Contact() {
                     <div className="font-medium">Office</div>
                     <div className="text-muted-foreground">{officeAddress}</div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -256,9 +255,9 @@ export default function Contact() {
         </div>
 
         {/* Google Map Section */}
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <GoogleMap address={officeAddress} />
-        </div>
+        </div> */}
       </div>
     </section>
   );
